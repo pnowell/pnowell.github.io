@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none">
+  <defs>
+    <radialGradient id="bgNavy" cx="256" cy="216" r="290" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="58%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#080d1a" />
+    </radialGradient>
+    <radialGradient id="cyanHalo" cx="256" cy="256" r="240" gradientUnits="userSpaceOnUse">
+      <stop offset="74%" stop-color="#38bdf8" stop-opacity="0" />
+      <stop offset="89%" stop-color="#38bdf8" stop-opacity="0.26" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="cyanBright" x1="76" y1="64" x2="436" y2="448" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#bae6fd" />
+      <stop offset="50%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <linearGradient id="blueChannel" x1="96" y1="96" x2="416" y2="416" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="goldWheel" x1="110" y1="110" x2="402" y2="402" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fde047" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="goldLight" x1="160" y1="80" x2="320" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="55%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+    <linearGradient id="goldShadow" x1="190" y1="120" x2="360" y2="390" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="65%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+    <radialGradient id="centerBoss" cx="244" cy="240" r="88" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="68%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </radialGradient>
+    <linearGradient id="squircleRim" x1="16" y1="16" x2="496" y2="496" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.45" />
+      <stop offset="50%" stop-color="#94a3b8" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.35" />
+    </linearGradient>
+  </defs>
+
+  <rect x="8" y="8" width="496" height="496" rx="112" fill="url(#bgNavy)" />
+  <rect x="11" y="11" width="490" height="490" rx="109" stroke="url(#squircleRim)" stroke-width="6" />
+  <circle cx="256" cy="256" r="240" fill="url(#cyanHalo)" />
+  <circle cx="256" cy="256" r="193" stroke="url(#blueChannel)" stroke-width="26" />
+  <g stroke-linecap="round">
+    <line x1="348.00" y1="96.65" x2="357.00" y2="81.06" stroke="#bae6fd" stroke-width="5.5" stroke-opacity="0.55" />
+    <line x1="415.35" y1="164.00" x2="430.94" y2="155.00" stroke="#bae6fd" stroke-width="5.5" stroke-opacity="0.55" />
+    <line x1="415.35" y1="348.00" x2="430.94" y2="357.00" stroke="#bae6fd" stroke-width="5.5" stroke-opacity="0.55" />
+    <line x1="348.00" y1="415.35" x2="357.00" y2="430.94" stroke="#bae6fd" stroke-width="5.5" stroke-opacity="0.55" />
+    <line x1="164.00" y1="415.35" x2="155.00" y2="430.94" stroke="#bae6fd" stroke-width="5.5" stroke-opacity="0.55" />
+    <line x1="96.65" y1="348.00" x2="81.06" y2="357.00" stroke="#bae6fd" stroke-width="5.5" stroke-opacity="0.55" />
+    <line x1="96.65" y1="164.00" x2="81.06" y2="155.00" stroke="#bae6fd" stroke-width="5.5" stroke-opacity="0.55" />
+    <line x1="164.00" y1="96.65" x2="155.00" y2="81.06" stroke="#bae6fd" stroke-width="5.5" stroke-opacity="0.55" />
+  </g>
+  <circle cx="256" cy="256" r="207" stroke="url(#cyanBright)" stroke-width="10" />
+  <circle cx="256" cy="256" r="179" stroke="url(#cyanBright)" stroke-width="7" />
+  <circle cx="256" cy="256" r="149" stroke="url(#goldWheel)" stroke-width="28" />
+  <g>
+    <line x1="290.16" y1="128.50" x2="298.96" y2="95.66" stroke="#0f172a" stroke-width="8.0" />
+    <line x1="383.50" y1="221.84" x2="416.34" y2="213.04" stroke="#0f172a" stroke-width="8.0" />
+    <line x1="383.50" y1="290.16" x2="416.34" y2="298.96" stroke="#0f172a" stroke-width="8.0" />
+    <line x1="290.16" y1="383.50" x2="298.96" y2="416.34" stroke="#0f172a" stroke-width="8.0" />
+    <line x1="221.84" y1="383.50" x2="213.04" y2="416.34" stroke="#0f172a" stroke-width="8.0" />
+    <line x1="128.50" y1="290.16" x2="95.66" y2="298.96" stroke="#0f172a" stroke-width="8.0" />
+    <line x1="128.50" y1="221.84" x2="95.66" y2="213.04" stroke="#0f172a" stroke-width="8.0" />
+    <line x1="221.84" y1="128.50" x2="213.04" y2="95.66" stroke="#0f172a" stroke-width="8.0" />
+  </g>
+  <g>
+    <polygon points="366.31,145.69 316.31,220.47 256.00,256.00 291.53,195.69" fill="#0f172a" stroke="#0f172a" stroke-width="12" stroke-linejoin="round" />
+    <polygon points="366.31,366.31 291.53,316.31 256.00,256.00 316.31,291.53" fill="#0f172a" stroke="#0f172a" stroke-width="12" stroke-linejoin="round" />
+    <polygon points="145.69,366.31 195.69,291.53 256.00,256.00 220.47,316.31" fill="#0f172a" stroke="#0f172a" stroke-width="12" stroke-linejoin="round" />
+    <polygon points="145.69,145.69 220.47,195.69 256.00,256.00 195.69,220.47" fill="#0f172a" stroke="#0f172a" stroke-width="12" stroke-linejoin="round" />
+    <polygon points="366.31,145.69 256.00,256.00 291.53,195.69" fill="url(#goldLight)" />
+    <polygon points="366.31,145.69 316.31,220.47 256.00,256.00" fill="url(#goldShadow)" />
+    <polygon points="366.31,366.31 256.00,256.00 316.31,291.53" fill="url(#goldLight)" />
+    <polygon points="366.31,366.31 291.53,316.31 256.00,256.00" fill="url(#goldShadow)" />
+    <polygon points="145.69,366.31 256.00,256.00 220.47,316.31" fill="url(#goldLight)" />
+    <polygon points="145.69,366.31 195.69,291.53 256.00,256.00" fill="url(#goldShadow)" />
+    <polygon points="145.69,145.69 256.00,256.00 195.69,220.47" fill="url(#goldLight)" />
+    <polygon points="145.69,145.69 220.47,195.69 256.00,256.00" fill="url(#goldShadow)" />
+    <polygon points="256.00,58.00 280.75,182.03 256.00,256.00 231.25,182.03" fill="#0f172a" stroke="#0f172a" stroke-width="12" stroke-linejoin="round" />
+    <polygon points="454.00,256.00 329.97,280.75 256.00,256.00 329.97,231.25" fill="#0f172a" stroke="#0f172a" stroke-width="12" stroke-linejoin="round" />
+    <polygon points="256.00,454.00 231.25,329.97 256.00,256.00 280.75,329.97" fill="#0f172a" stroke="#0f172a" stroke-width="12" stroke-linejoin="round" />
+    <polygon points="58.00,256.00 182.03,231.25 256.00,256.00 182.03,280.75" fill="#0f172a" stroke="#0f172a" stroke-width="12" stroke-linejoin="round" />
+    <polygon points="256.00,58.00 256.00,256.00 231.25,182.03" fill="url(#goldLight)" />
+    <polygon points="256.00,58.00 280.75,182.03 256.00,256.00" fill="url(#goldShadow)" />
+    <polygon points="454.00,256.00 256.00,256.00 329.97,231.25" fill="url(#goldLight)" />
+    <polygon points="454.00,256.00 329.97,280.75 256.00,256.00" fill="url(#goldShadow)" />
+    <polygon points="256.00,454.00 256.00,256.00 280.75,329.97" fill="url(#goldLight)" />
+    <polygon points="256.00,454.00 231.25,329.97 256.00,256.00" fill="url(#goldShadow)" />
+    <polygon points="58.00,256.00 256.00,256.00 182.03,280.75" fill="url(#goldLight)" />
+    <polygon points="58.00,256.00 182.03,231.25 256.00,256.00" fill="url(#goldShadow)" />
+  </g>
+  <circle cx="256" cy="256" r="82" fill="url(#centerBoss)" />
+  <circle cx="256" cy="235" r="27" fill="#0f172a" />
+  <path d="M241 250 H271 L282 309 C282.7 312.6 279.9 316 276.2 316 H235.8 C232.1 316 229.3 312.6 230 309 Z" fill="#0f172a" />
+</svg>

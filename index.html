@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TODO(security): frame-ancestors / X-Frame-Options HTTP response headers are managed by GitHub Pages static hosting and cannot be set via HTML meta tags. -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'self'; form-action 'none';"
+    />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta
+      name="description"
+      content="Phil Nowell — Interactive web applications, AI experiments, and educational tools including DaVinci Decoders and Connect Four AI."
+    />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Phil Nowell — Projects</title>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-identity">
+          <div class="hero-title-row">
+            <img
+              src="./favicon.svg"
+              alt="Phil Nowell monogram"
+              class="hero-monogram"
+              width="44"
+              height="44"
+            />
+            <h1>Phil Nowell</h1>
+          </div>
+          <p class="hero-subtitle">
+            Interactive web applications, machine learning experiments, and educational tools.
+          </p>
+        </div>
+
+        <a
+          class="github-profile-btn"
+          href="https://github.com/pnowell"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <svg
+            class="icon-inline"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2Z"
+            />
+          </svg>
+          <span>@pnowell</span>
+        </a>
+      </header>
+
+      <main>
+        <h2 class="section-heading">Featured Projects</h2>
+
+        <div class="projects-grid">
+          <!-- DaVinci Decoders -->
+          <article class="project-card">
+            <div class="card-top">
+              <img
+                src="./davinci-logo.svg"
+                alt="DaVinci Decoders compass cipher logo"
+                class="project-logo"
+                width="60"
+                height="60"
+              />
+              <div class="card-titles">
+                <div class="project-eyebrow">Science Olympiad &bull; Cryptography</div>
+                <h3 class="project-title">DaVinci Decoders</h3>
+              </div>
+            </div>
+
+            <p class="project-description">
+              Interactive Division A cipher and cryptogram trainer featuring speed drills, partner
+              practice tests, and classroom leaderboards for Letter Offsets, Atbash, Pigpen, and
+              Standard Galactic Alphabet.
+            </p>
+
+            <ul class="tech-tags" aria-label="DaVinci Decoders technologies">
+              <li class="tech-tag">TypeScript</li>
+              <li class="tech-tag">React</li>
+              <li class="tech-tag">Firebase</li>
+            </ul>
+
+            <div class="card-actions">
+              <a class="btn-launch" href="https://pnowell.github.io/codebusters/">
+                <span>Launch App</span>
+                <span aria-hidden="true">&rarr;</span>
+              </a>
+              <div class="card-secondary-links">
+                <a
+                  class="link-subtle"
+                  href="https://pnowell.github.io/codebusters/privacy_policy.html"
+                >
+                  Privacy
+                </a>
+                <a
+                  class="link-subtle"
+                  href="https://github.com/pnowell/codebusters"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Source
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Connect Four AI -->
+          <article class="project-card card-coral">
+            <div class="card-top">
+              <img
+                src="./connect4-logo.svg"
+                alt="Connect Four AI board logo"
+                class="project-logo"
+                width="60"
+                height="60"
+              />
+              <div class="card-titles">
+                <div class="project-eyebrow eyebrow-coral">Reinforcement Learning &bull; Game AI</div>
+                <h3 class="project-title">Connect Four AI</h3>
+              </div>
+            </div>
+
+            <p class="project-description">
+              Play Connect Four directly in your browser against a deep reinforcement learning
+              ResNet model trained over 1M self-play steps, complete with live Q-value move analysis
+              and multiple difficulty tiers.
+            </p>
+
+            <ul class="tech-tags" aria-label="Connect Four AI technologies">
+              <li class="tech-tag">Deep RL ResNet</li>
+              <li class="tech-tag">ONNX Runtime Web</li>
+              <li class="tech-tag">JavaScript</li>
+            </ul>
+
+            <div class="card-actions">
+              <a class="btn-launch btn-launch-coral" href="https://pnowell.github.io/ConnectFour/">
+                <span>Play Now</span>
+                <span aria-hidden="true">&rarr;</span>
+              </a>
+              <div class="card-secondary-links">
+                <a
+                  class="link-subtle"
+                  href="https://github.com/pnowell/ConnectFour"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Source
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </main>
+
+      <footer class="site-footer">
+        <span>&copy; 2026 Phil Nowell</span>
+        <a href="https://github.com/pnowell" rel="noopener noreferrer" target="_blank">
+          github.com/pnowell
+        </a>
+      </footer>
+    </div>
+  </body>
+</html>

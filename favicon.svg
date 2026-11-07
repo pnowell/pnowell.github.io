@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none">
+  <defs>
+    <radialGradient id="bg" cx="240" cy="180" r="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="60%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#080d1a" />
+    </radialGradient>
+    <linearGradient id="accent" x1="80" y1="80" x2="432" y2="432" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7dd3fc" />
+      <stop offset="50%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+    <linearGradient id="rim" x1="16" y1="16" x2="496" y2="496" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.35" />
+    </linearGradient>
+  </defs>
+  <rect x="12" y="12" width="488" height="488" rx="112" fill="url(#bg)" />
+  <rect x="15" y="15" width="482" height="482" rx="109" stroke="url(#rim)" stroke-width="8" />
+  <!-- Optically centered geometric PN monogram (x=94..418, symmetric around 256) -->
+  <path
+    d="M94 368 V144 H180 C218 144 244 168 244 206 C244 244 218 268 180 268 H136 V368 H94 Z M136 230 H176 C193 230 203 221 203 206 C203 191 193 182 176 182 H136 V230 Z"
+    fill="#f8fafc"
+  />
+  <path
+    d="M268 368 V144 H308 L378 286 V144 H418 V368 H378 L308 226 V368 H268 Z"
+    fill="url(#accent)"
+  />
+</svg>

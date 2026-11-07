@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none">
+  <defs>
+    <radialGradient id="c4Bg" cx="256" cy="200" r="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="60%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#080d1a" />
+    </radialGradient>
+    <linearGradient id="boardBlue" x1="76" y1="76" x2="436" y2="436" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <radialGradient id="redToken" cx="35%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#ff758f" />
+      <stop offset="55%" stop-color="#ff385c" />
+      <stop offset="100%" stop-color="#be123c" />
+    </radialGradient>
+    <radialGradient id="goldToken" cx="35%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="55%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </radialGradient>
+    <linearGradient id="c4Rim" x1="16" y1="16" x2="496" y2="496" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ff385c" stop-opacity="0.45" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0.4" />
+    </linearGradient>
+  </defs>
+
+  <!-- Squircle badge -->
+  <rect x="8" y="8" width="496" height="496" rx="112" fill="url(#c4Bg)" />
+  <rect x="11" y="11" width="490" height="490" rx="109" stroke="url(#c4Rim)" stroke-width="6" />
+
+  <!-- 4x4 Connect Four board frame -->
+  <rect x="76" y="76" width="360" height="360" rx="54" fill="url(#boardBlue)" stroke="#60a5fa" stroke-opacity="0.42" stroke-width="6" />
+
+  <!-- Row 1 (y=134): 3 empty slots + Red winning top-right -->
+  <circle cx="134" cy="134" r="28" fill="#0b1324" />
+  <circle cx="215.3" cy="134" r="28" fill="#0b1324" />
+  <circle cx="296.7" cy="134" r="28" fill="#0b1324" />
+  <circle cx="378" cy="134" r="28" fill="url(#redToken)" />
+
+  <!-- Row 2 (y=215.3): 2 empty slots + Red winning + Gold support -->
+  <circle cx="134" cy="215.3" r="28" fill="#0b1324" />
+  <circle cx="215.3" cy="215.3" r="28" fill="#0b1324" />
+  <circle cx="296.7" cy="215.3" r="28" fill="url(#redToken)" />
+  <circle cx="378" cy="215.3" r="28" fill="url(#goldToken)" />
+
+  <!-- Row 3 (y=296.7): 1 empty + Red winning + Gold + Red -->
+  <circle cx="134" cy="296.7" r="28" fill="#0b1324" />
+  <circle cx="215.3" cy="296.7" r="28" fill="url(#redToken)" />
+  <circle cx="296.7" cy="296.7" r="28" fill="url(#goldToken)" />
+  <circle cx="378" cy="296.7" r="28" fill="url(#redToken)" />
+
+  <!-- Row 4 bottom (y=378): Red winning + Gold + Gold + Gold (gravity-accurate stack!) -->
+  <circle cx="134" cy="378" r="28" fill="url(#redToken)" />
+  <circle cx="215.3" cy="378" r="28" fill="url(#goldToken)" />
+  <circle cx="296.7" cy="378" r="28" fill="url(#goldToken)" />
+  <circle cx="378" cy="378" r="28" fill="url(#goldToken)" />
+
+  <!-- Winning 4-in-a-row diagonal glow line -->
+  <line x1="134" y1="378" x2="378" y2="134" stroke="#ffffff" stroke-opacity="0.92" stroke-width="9" stroke-linecap="round" />
+</svg>
